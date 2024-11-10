@@ -56,7 +56,7 @@ public class SharedInventoryManagement {
             try {
                 for (int i = 0; i < 5; i++) {
                     inventory.addItems(5);
-                    Thread.sleep(500); //
+                    Thread.sleep(500);
                 }
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
